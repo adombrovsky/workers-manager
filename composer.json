@@ -1,9 +1,9 @@
 {
   "name": "adombrovsky/workers-manager",
   "description": "Automatically scalles workers",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
-  "authors": [
+  "authors": [  
     {
       "name": "Oleksandr Dombrovskyi",
       "email": "dombrovsky.alex@gmail.com"
@@ -11,6 +11,14 @@
   ],
   "require": {
     "supervisorphp/configuration": "0.2.*",
-    "supervisorphp/supervisor": "3.0.*"
+    "ihor/supervisor-xml-rpc": "0.1.*",
+    "php-amqplib/php-amqplib": "2.6.*",
+    "alchemy/rabbitmq-management-client": "0.2.*",
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "WorkersManager\\": "src/WorkersManager"
+    }
   }
 }
