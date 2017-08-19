@@ -1,0 +1,16 @@
+{
+  "name": "adombrovsky/workers-manager",
+  "description": "Automatically scalles workers",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Dombrovskyi",
+      "email": "dombrovsky.alex@gmail.com"
+    }
+  ],
+  "require": {
+    "supervisorphp/configuration": "0.2.*",
+    "supervisorphp/supervisor": "3.0.*"
+  }
+}
